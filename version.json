@@ -3,6 +3,7 @@
   "MsixUrl": "https://tgameseapps.net/tnuser_panel/files/tnavigator_uwp_1.3.4.msix",
   "CertificateUrl": "https://tgameseapps.net/tnuser_panel/files/certificado.cer",
   "DependencyUrl": "https://tgameseapps.net/tnuser_panel/files/Microsoft.VCLibs.x64.appx",
+  "RequireSha256": false
   "ForceUpdate": false,
   "Notes": "Versão atual estável."
 }
