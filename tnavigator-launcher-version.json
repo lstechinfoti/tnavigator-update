@@ -1,0 +1,48 @@
+{
+  "AppName": "TNavigator Unity",
+  "Version": "1.3.4",
+  "ReleaseDate": "2026-04-27",
+  "Channel": "Stable",
+  "ForceUpdate": false,
+  "RequireSha256": true,
+  "MandatoryDependencies": true,
+  "Notes": "Versão atual estável. Melhorias de desempenho, estabilidade e instalador profissional.",
+
+  "Urls": {
+    "MsixUrl": "https://tgameseapps.net/tnuser_panel/files/tnavigator_uwp_1.3.4.msix",
+    "CertificateUrl": "https://tgameseapps.net/tnuser_panel/files/certificado.cer",
+    "DependencyUrl": "https://tgameseapps.net/tnuser_panel/files/Microsoft.VCLibs.x64.appx"
+  },
+
+  "ExpectedHashes": {
+    "Certificate": "0A17FD4A5F54DD06F03A942CA78FD6780EF2E47EE8E522B5E0D294A354136A44",
+    "Dependency": "9C17B521F9D690A1F504DA5108ED6EEC5669EB3A8FD1331EEF43E40D84E74283",
+    "Msix": "64D56291C4CB77519C2BAC29E6F8FC64F8374E2EDE24C43FF4683750E695CDC6"
+  },
+
+  "Installer": {
+    "SilentInstall": true,
+    "CloseRunningAppBeforeUpdate": true,
+    "AllowRollback": true,
+    "KeepBackupBeforeUpdate": true
+  },
+
+  "CloudBackup": {
+    "Enabled": true,
+    "PreferredProvider": "OneDrive",
+    "FolderName": "TNavigatorBackups"
+  },
+
+  "Support": {
+    "Website": "https://tgameseapps.net",
+    "GitHub": "https://github.com/lstechinfoti"
+  },
+
+  "Changelog": [
+    "Instalador profissional em C# WPF",
+    "Sistema automático de backup",
+    "Verificação SHA256 integrada",
+    "Melhoria no processo de atualização",
+    "Maior estabilidade geral"
+  ]
+}
